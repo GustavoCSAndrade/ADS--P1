@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula tabelas</title>
+</head>
+<!-- ------------------------------------------------------------------------------------------ -->
+<body>:
+    
+    <h1>Aula sobre tabelas:</h1>
+    <hr>
+    <table border="1">
+        <caption>Horários de Aula</caption>
+        <tr>
+            <th scope="col"> </th>
+            <th scope="col" >Segubda</th>
+            <th scope="col">Terça</th>
+            <th scope="col">Quarta</th>
+            <th scope="col">Quinta</th>
+            <th scope="col">Sexta</th>
+        </tr>
+        <tr>
+            <th scope="row">19:10</th>
+            <td>Modelagens</td>
+            <td>API</td>
+            <td>PROG</td>
+            <td>SO</td>
+            <td>ArQ</td>
+        </tr>
+    </table>
+<!--  ----------------------------------------------------------------------------------------------------------- -->  
+<br> 
+<hr>
+    <table border="1">
+        <caption>Exemplo1</caption>
+        <tr>
+            <th scope="col"> Resultado </th>
+            <th scope="col" >Situação</th>    
+        </tr>
+        <tr>  
+            <td align="center">Abaixo de 17</td>
+            <td>Muito Abaixo do peso</td>
+        </tr>
+        <tr> 
+            <td align="center">Entre 17 e 18,49</td>
+            <td align="center">Abaixo do peso</td>
+        </tr>
+        <tr> 
+            <td>Entre 18,50 e 24,99</td>
+            <td align="center">Peso normal</td>
+        </tr>
+    </table>
+ <!-- ----------------------------------------------------------------------------------------------------------   -->
+ <br>
+<hr>
+        <table border="1">
+            <caption>Exemplo2</caption>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col"> 18:40 </th>
+                <th scope="col" >19:30</th>
+                <th scope="col" >20:20</th>
+                <th scope="col" >21:10</th>
+            </tr>
+            <tr>  
+                <th scope="row"> Segunda Feira</th>
+                <td align="center" colspan="2">prog para dispositivos moveis</td>
+                
+                <td colspan="2">API</td>
+                
+            </tr>
+            <tr>  
+                <th scope="row"> Terça Feira</th>
+                <td align="center">prog para dispositivos moveis</td>
+                <td align="center">prog para dispositivos moveis</td>
+                <td>API</td>
+                <td>API</td>
+            </tr>
+           
+        </table>
+<!-- ----------------------------------------------------------------------------------------------------------   -->
+<br>
+   
+<hr>
+
+    <table border="3">
+        <caption>Exemplo3</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            
+            <th scope="col" colspan="2">telefone</th>
+            
+        </tr>
+        <tr>  
+            
+            <td align="center">BILL GATES</td>
+            <td >88558885</td>
+            <td>88552258</td>
+            
+        </tr>   
+       
+    </table>
+
+<br>
+<hr>
+        <table border="1">
+            <caption>Exemplo4</caption>
+            <tr>
+                <th scope="row">Nome</th>
+                <td>BILL GATES</td>          
+            </tr>
+            <tr>
+                <th scope="row" rowspan="2">telefone</th>
+                <td>98522258</td>
+               <!-- esss elemento ira ser mesclado -->
+            <tr>
+                <td>5255228</td>
+            </tr>
+</table>
+<hr>
+<br>
+<table border="1">
+    <caption>Exemplo5</caption>
+    <tr>
+        <th scope="col" colspan="4">tabela de preços</th>      
+    </tr>
+    <tr>
+        <td rowspan="2">seminovos</td>
+        <td>trompete</td>
+        <td>trombone</td>
+        <td>trompa</td>
+    </tr>
+    <tr>
+        <td>500</td>
+        <td>640</td>
+        <td>650</td>
+    </tr>
+
+      
+    <tr>
+        <td align="center" colspan="4">visite nossa loja</td>
+    </tr>
+</table>
+</body>
+</html>
