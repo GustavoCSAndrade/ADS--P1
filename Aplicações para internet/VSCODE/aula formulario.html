@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pb-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Formulário</title>
+</head>
+<body>
+    <form action="pagina.php" method="post">
+
+
+        <label for="">Nome:</label>
+        <input id="nome" name="nome" type="text" 
+        placeholder="Informe seu nome" maxlength="10" required>
+        </p>
+        <style>
+            #nome{background-color: blueviolet;}
+        </style>
+
+        <p>Email: <input type="email" required placeholder="informe o cpf"></p>
+        <p>Idade: <input type="number" max="90" min="14" placeholder="indique sua idade"></p>
+        <p>Selecione seu Estado</p>
+        <select name="Estados">
+            <option value="PB">PB</option>
+            <option value="PE">PE</option>
+            <option value="AL">AL</option>
+        </select>
+        <p>Resumo:</p>
+        <textarea name="resumo"cols="30" rows="10"></textarea>
+     <br>
+        <p>Selecione o horário:</p>
+       <p><input type="radio" name="horario" checked> 08:00 às 10:30</p>
+       <p><input type="radio" name="horario"> 10:30 às 13:00</p>
+       <p><input type="radio" name="horario"> 13:00 às 14:30</p>
+    <br>
+       <p>Disciplina favorita:</p>
+       <p><input type="checkbox" name="Disciplinas"> programação</p>
+       <p><input type="checkbox" name="Disciplinas"> aplicações para internet</p>
+       <p><input type="checkbox" name="Disciplinas"> Sistemas Operacionais</p>
+       <p><input type="checkbox" name="Disciplinas"> programação</p>
+       <p><input type="checkbox" name="Disciplinas"> aplicações para internet</p>
+       <p><input type="checkbox" name="Disciplinas"> Sistemas Operacionais</p>
+    <br>  
+        <button>enviar</button>
+    </form>
+    <form action="">
+        <h1>Exercício do final da aula</h1>
+        <p> Nome: <input name="nome" type="text" 
+            placeholder="Informe seu nome" maxlength="10" required></p>
+        <p> Nome: <input name="CPF" type="number" 
+            placeholder="Informe seu CPF" maxlength="11" required></p>
+        <p>Email: <input type="email" required></p>
+    <h3>Selecione a cidade:</h3>
+        <select name="cidade">
+            <option value="JP">João Pessoa</option>
+            <option value="RE">Revife</option>
+        </select>
+    <h3>Selecione os cursos:</h3>
+        <p><input type="checkbox" name="cursos">ANDROID</p>
+        <p><input type="checkbox" name="cursos">PYTHON</p>
+        <p><input type="checkbox" name="cursos">HTML/CSS</p>
+        <p><input type="checkbox" name="cursos">JAVASCRIPT</p>
+    <h3>Selecione a faixa etária:</h3>
+        <p><input type="radio" name="idades">18 à 25</p>
+        <p><input type="radio" name="idades">26 à 30</p>
+        <p><input type="radio" name="idades">31 à 45</p>
+        <p><input type="radio" name="idades">46 à 61</p>
+        <br>
+    <button>Enviar</button> <button>limpar</button>
+        <p><input type="date" name="data"></p>
+        <p><input type="time" name="hora"></p>
+        <p><input type="range" name="valor" min="0" max="50"></p>
+        <p><input type="submit" value="enviar"> como imput</p>
+        <fieldset>
+            <legend>cadastro</legend>
+            Nome: <input type="text"> <br>
+            email: <input type="email">
+        </fieldset>
+    <p>label</p>
+
+    
+
+    </form>
+</body>
+</html>
